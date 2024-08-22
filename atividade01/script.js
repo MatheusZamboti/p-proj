@@ -23,6 +23,6 @@ function Mult(){
 
     var numero01 = parseFloat(document.getElementById("number7").value)
     var numero02 = parseFloat(document.getElementById("number8").value)
-    var resposta = document.getElementById("respmult")
-    resposta.textContent = numero01 / numero02
+    var resposta = document.getElementById("respMult")
+    resposta.textContent = numero01 * numero02
 }   
